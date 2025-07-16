@@ -16,6 +16,27 @@
         function changeText(){
             document.getElementById("title").innerText="I am the Princess"
         }
+        //var fruits=["Apple","Banna","Orange"];
+        var numbers =[-4,7,8,3,-2,-7,4,-9,-45,5]
+        /*
+        for(var i=0;i< fruits.length;i++){
+            document.write("<br>"+"Fruit name:" +fruits[i]+"<br>");
+           document.write("<br>"+"loop goes"+"times"+"<br>")
+        }
+        */
+       
+       /*for(var i=0;i<10;i++){
+        document.write("<br>"+"numbers[i]")
+       }*/
+       for (var i = 0; i < numbers.length; i++) {
+       if(numbers[i]%2==0){
+        document.write("<br>" +numbers[i]+"is a even  number ")
+       }else
+       {
+        document.write("<br>"+numbers[i]+"is a odd number")
+       }
+       document.write("<br>"+numbers.length)
+       }
     </script>
 </body>
 </html>
